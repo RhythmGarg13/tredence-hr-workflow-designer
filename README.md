@@ -34,8 +34,9 @@ src/
 │   └── workflowValidator.js # DFS cycle detection and rule validation
 ├── App.jsx              # Main state container and layout logic
 └── main.jsx             # React entry point
+```
 
-## 🔮 Future Enhancements (With more time)
+## Future Enhancements
 If given more time, I would implement the following features:
 1. **Zustand or Redux:** Move the node/edge state out of `App.jsx` into a global store to prevent unnecessary re-renders of the entire layout when a single node property updates.
 2. **Real Backend Integration:** Swap the mock API service with a lightweight Python FastAPI backend to handle the graph traversal and payload execution natively.
