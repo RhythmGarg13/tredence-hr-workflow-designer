@@ -20,18 +20,20 @@ Given the 24-hour timebox, my primary focus was on establishing a clean, scalabl
 * **Styling:** Leveraged Tailwind CSS (v4) for rapid, utility-first styling, ensuring a clean and responsive layout without writing custom CSS files.
 
 ## 📁 Folder Structure
+
+```text
 src/
-├── components/          # Pure, presentational UI components.
-│   ├── CanvasArea.jsx   # React Flow canvas wrapper.
-│   ├── ConfigPanel.jsx  # Dynamic right-hand properties form.
-│   ├── CustomNodes.jsx  # Visual definitions for the 4 node types.
-│   └── Sidebar.jsx      # Drag-and-drop source panel.
+├── components/          # Pure, presentational UI components
+│   ├── CanvasArea.jsx   # React Flow canvas wrapper
+│   ├── ConfigPanel.jsx  # Dynamic right-hand properties form
+│   ├── CustomNodes.jsx  # Visual definitions for the 4 node types
+│   └── Sidebar.jsx      # Drag-and-drop source panel
 ├── services/
-│   └── api.js           # Asynchronous mock API layer.
+│   └── api.js           # Asynchronous mock API layer
 ├── utils/
-│   └── workflowValidator.js # DFS cycle detection and rule validation.
-├── App.jsx              # Main state container and layout logic.
-└── main.jsx             # React entry point.
+│   └── workflowValidator.js # DFS cycle detection and rule validation
+├── App.jsx              # Main state container and layout logic
+└── main.jsx             # React entry point
 
 ## 🔮 Future Enhancements (With more time)
 If given more time, I would implement the following features:
