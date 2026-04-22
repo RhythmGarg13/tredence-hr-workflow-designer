@@ -1,6 +1,7 @@
 # Tredence HR Workflow Designer
 
 A React-based visual workflow designer prototype built for the Tredence Full Stack Engineering Intern Case Study.
+Note to Reviewers: Please see the Tredence HR Workflow Designer.pdf file in this repository for visual screenshots and the execution report.
 
 ## Quick Start
 To run this project locally:
